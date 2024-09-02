@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .header {
@@ -27,7 +27,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 25px;
-    padding: 10px;
 }
 
 .subheader-top {
@@ -39,7 +38,7 @@
 .left-links {
     display: flex;
     font-size: 14px;
-    gap: 20px;
+    gap: 25px;
     justify-content: left;
     align-items: center;
 }
@@ -47,7 +46,7 @@
 .right-links {
     display: flex;
     font-size: 14px;
-    gap: 20px;
+    gap: 25px;
     justify-content: right;
     align-items: center;
 }
@@ -66,5 +65,5 @@
     font-size: 16px;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
